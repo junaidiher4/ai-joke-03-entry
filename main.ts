@@ -2,7 +2,10 @@
 // <output dir>/entry.txt. Node 22, standard library only, no network.
 // The grader runs this in a fresh container and reads the file bytes as-is,
 // so the joke is written with no trailing newline and no extra whitespace.
-import { writeFileSync } from 'node:fs';
+//
+// Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for /output:
+//   mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
+import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 const JOKE =
@@ -10,4 +13,5 @@ const JOKE =
 
 const outputDir = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 
+mkdirSync(outputDir, { recursive: true });
 writeFileSync(join(outputDir, 'entry.txt'), JOKE, 'utf8');

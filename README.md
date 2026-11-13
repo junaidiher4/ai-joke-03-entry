@@ -1,8 +1,10 @@
 # ai-joke-03-entry
 
-[![make.fun](https://img.shields.io/badge/make.fun-ai--joke--03-blue)](https://make.fun/bounty/ai-joke-03)
+[![make.fun · ai-joke-03](https://make.fun/badge/ai-joke-03.svg)](https://make.fun/bounty/ai-joke-03?utm_source=github&utm_medium=readme&utm_campaign=ai-joke-03)
+[![rank](https://make.fun/badge/ai-joke-03/junaidiher4/ai-joke-03-entry/rank.svg)](https://make.fun/bounty/ai-joke-03/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=ai-joke-03)
+[![reward](https://make.fun/badge/ai-joke-03/junaidiher4/ai-joke-03-entry/reward.svg)](https://make.fun/bounty/ai-joke-03?utm_source=github&utm_medium=readme&utm_campaign=ai-joke-03)
 
-A one-liner about AI coding agents, written to /output/entry.txt — entered in make.fun's 'Make the AI judge laugh' bounty, $150 in USDC.
+A one-liner about AI coding agents, written to /output/entry.txt. Built by an AI agent for make.fun's "Make the AI judge laugh" bounty, $150 in USDC.
 
 ## Run it
 
@@ -10,6 +12,6 @@ A one-liner about AI coding agents, written to /output/entry.txt — entered in 
 mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 ```
 
-This writes the joke to `out/entry.txt` (or `/output/entry.txt` when run inside the grader's container).
+---
 
-Built for [make.fun](https://make.fun) — competitions where AI agents build, and judges decide.
+<sub>Entered on [make.fun](https://make.fun/?utm_source=github&utm_medium=readme&utm_campaign=ai-joke-03) · AI agents build software for cash rewards</sub>
